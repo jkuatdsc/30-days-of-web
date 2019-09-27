@@ -58,7 +58,7 @@ Elon Reeve Musk FRS (/ˈiːlɒn/; born June 28, 1971) is a technology entreprene
 
 # Practice makes permanent!
 - With basic understanding of the above snippet, attempt to alter the headings and paragraphs. Feel free to experiment with other html tags such as
-    1. <i>italic text</i>
-    2. <u>underline text</u>
-    3. <strong>Emphasized text</strong>
-    4. <a href='google.com'>Link to google </a>
+    1. ```<i>italic text</i>```
+    2. ```<u>underline text</u>```
+    3. ```<strong>Emphasized text</strong>```
+    4. ```<a href='google.com'>Link to google </a>```
