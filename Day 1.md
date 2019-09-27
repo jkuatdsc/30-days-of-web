@@ -16,13 +16,13 @@ Go to your text editor and create a new file. On the file menu, choose save as. 
 ![save as image](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQn2woBZLmXJYB7UmQOI8utJepWxdDs0SnivnmkOhYehYX_Y7Jg)
 
 # Understanging html syntax
-1. All HTML documents must start with a document type declaration: <!DOCTYPE html>.
-2. The HTML document itself begins with <html> and ends with </html>.
-3. The visible part of the HTML document is between <body> and </body>.
+1. All HTML documents must start with a document type declaration: ```<!DOCTYPE html>```.
+2. The HTML document itself begins with ```<html>``` and ends with ```</html>```.
+3. The visible part of the HTML document is between ```<body>``` and ```</body>```.
 4. Html markup is tag based. an opening tag looks like this 
-    <tag>
+    ```<tag>```
     A closing tag looks like this
-    </tagname>
+    ```</tagname>```
     
 # First test run
 copy this code to your text editor where you have mypage.html open
@@ -55,7 +55,7 @@ Elon Reeve Musk FRS (/ˈiːlɒn/; born June 28, 1971) is a technology entreprene
 
 1. The first type tag <!DOCTYPE html> specifies to the browser that the document is a html document.
 2. Every other tag, whenever it is opened, there is an accompanying closing tag.
-    Example: For the h1(heading 1 tag), there is an opening tag <h1> and after the content that should be part of the heading, there is a closing tag </h1>
+    Example: For the h1(heading 1 tag), there is an opening tag ```<h1>``` and after the content that should be part of the heading, there is a closing tag ```</h1>```
 3. Html is linearly parsed. Ie if on your code you placed the heading before a paragraph, the expected output is in that same order.
 
 
