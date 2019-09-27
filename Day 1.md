@@ -41,12 +41,15 @@ Elon Reeve Musk FRS (/ˈiːlɒn/; born June 28, 1971) is a technology entreprene
 </body>
 </html>
 ```
+![Code](https://github.com/jkuatdsc/30-days-of-web/blob/master/images/day-1-code.png?raw=true)
 
 - Save the file
 - Open your file browser to where you have save the file
 - Right click the file and choose the option open with.
 - When displayed with the programs list, choose one browser,for example chrome
 - You should see the result as shown below
+
+![Results](https://github.com/jkuatdsc/30-days-of-web/blob/master/images/day-1-out.png?raw=true)
 
 # Understanding the code
 
