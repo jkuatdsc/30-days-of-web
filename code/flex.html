@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    
+    <style>
+
+        body{
+            margin:0px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5rem;
+        }
+
+        header,footer{
+            min-height: 60px;
+            line-height: 60px;
+        }
+
+        .brand{
+            font-weight: bold;
+            font-size: 24px;
+            margin-left: 8px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .team-item{
+            flex-basis: 25%;
+            flex-grow: 0;
+            padding: 8px;
+            min-height:100px;
+            
+        }
+
+        .team-item-body{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .team-item-body img{
+            max-width: 100%;
+            height: auto;
+            width: auto\9; /* ie8 */
+        }
+
+        .team-item-body p{
+            padding: 8px;
+        }
+
+        .bg-primary{
+            background: #4285F4;
+            color: white;
+
+        }
+
+        .text-center{
+            padding: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-primary">
+
+        <span class="brand">DSC JKUAT</span>
+        
+    </header>
+
+    <main>
+
+        <h1 class="text-center">About us</h1>
+        <p class="text-center">
+                The Google Developer Group (GDG) Jomo Kenyatta University of Agriculture and Technology(JKUAT) chapter is for everyone interested in learning about Google technologies and has a passion for building what's next using these technologies. Everyone from students to professionals and technology enthusiasts is invited to join in.
+        </p>
+
+        <h1 class="text-center">Our team</h1>
+
+        <div class="flex-container">
+
+            <div class="team-item">
+                <div class="team-item-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBS-0zHUItc9HjbH_jcCs-glDpVZjFRoFjCB1N4FxBcfk23XGf"/>
+                        <p>
+                                Mark Zuckerberg·Wednesday, March 6, 2019·Reading time: 15 minutes ... with friends, communities, and interests in the digital equivalent of a town square.
+                        </p>
+                </div>
+            </div>
+
+            <div class="team-item">
+                    <div class="team-item-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBS-0zHUItc9HjbH_jcCs-glDpVZjFRoFjCB1N4FxBcfk23XGf"/>
+                            <p>
+                                    Mark Zuckerberg·Wednesday, March 6, 2019·Reading time: 15 minutes ... with friends, communities, and interests in the digital equivalent of a town square.
+                            </p>
+                    </div>
+                </div>
+            
+            <div class="team-item">
+                    <div class="team-item-body">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBS-0zHUItc9HjbH_jcCs-glDpVZjFRoFjCB1N4FxBcfk23XGf"/>
+                            <p>
+                                    Mark Zuckerberg·Wednesday, March 6, 2019·Reading time: 15 minutes ... with friends, communities, and interests in the digital equivalent of a town square.
+                            </p>
+                    </div>
+                </div>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-primary">
+        <p class="text-center">
+            &copy;2019 DSC JKUAT. Email: <a style="color: white;" href="mailto:dsc@wakanda.com">dsc@wakanda.com</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
