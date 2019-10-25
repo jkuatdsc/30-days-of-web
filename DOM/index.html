@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #999;
+    }
+    .headingAttr {
+        color:crimson;
+        font-size: 50px;
+    }
+    button {
+        border: none;
+        background-color: darkslategray;
+        color: #fff;
+        padding: 15px;
+        margin: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    button:hover{
+        opacity: 50%;
+    }
+    </style>
+</head>
+<body>
+    <div id ="root">
+        <h1 id="heading"></h1>
+        <button id="btn">Click Me!!</button>
+    </div> 
+
+    <script>
+    let headingText = document.querySelector('#heading');      
+    headingText.textContent = '🐱‍👤 Developer';
+    // headingText.classList.add('headingAttr')
+    headingText.setAttribute('class', 'headingAttr')
+
+    let btn = document.getElementById('btn');
+    btn.addEventListener('click', function(){
+        alert('You just clicked me and fired an event')
+    })
+    </script>
+</body>
+</html>
