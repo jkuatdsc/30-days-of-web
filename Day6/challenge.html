@@ -1,0 +1,181 @@
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>DSC challenge</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+            body{
+                width: 80%;
+                margin: 10 auto;
+                font-family: 'Poppins', sans-serif;
+
+            }
+            .cards-main{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            .card{
+                width:100%;
+                min-height: 200px;
+                border-radius: 5px;
+                box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+                transition: 0.3s;
+                margin-top: 20px;
+            }
+
+            @media screen and(max-width: 375) {
+                .cards-main{
+                    flex-direction: column;
+                }
+
+               
+            }
+
+            .card p{
+                font-size: 12px;
+                color: gray;
+            }
+
+            .card-red{
+                border-top: 3px solid hsl(0, 78%, 62%);
+            }
+
+            .card-orange{
+                border-top: 3px solid hsl(34, 97%, 64%);
+            }
+
+            .card-blue{
+                border-top: 3px solid hsl(212, 86%, 64%);
+            }
+
+            .card-light-blue{
+                border-top: 3px solid hsl(180, 62%, 55%);
+            }
+
+            .card:hover{
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+            }
+
+            .card-body{
+                margin:10px;
+                
+            }
+
+            .card-body img{
+                width: 35px;
+                height: 35px;
+                float: right;
+                margin-right: 25px;
+            }
+
+            .col{
+                flex: 1;
+                padding: 20px;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+            }
+
+            .top{
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .h3{
+                font-size: 26px;
+                font-weight: 200;
+                margin-bottom: 2px !important;
+                margin-top: 2px !important;
+                
+            }
+
+            h3{
+                font-weight: 600;
+                font-size: 30px;
+                margin-bottom: 2px !important;
+                margin-top: 2px !important;
+            }
+
+            h4{
+                font-size: 22px; 
+            }
+
+            .top p{
+                color: gray;
+                font-weight: 400;
+            }
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <div class="top">
+
+            <p class="h3">Reliable, effecient delivery</h3>
+            <h3>Powered by technology</h3>
+            <p>Our artificial inteligence powered tools uses millions of project data <br> points to ensure that your project is successful</p>
+
+        </div>
+
+        <div class="cards-main">
+            <div class="col cards-left">
+                    <div class="card card-light-blue">
+                        <div class="card-body">
+                                <h4>Supervisor</h4>
+                                <p>Monitors activity to identify projects road blocks</p>
+                                <img src="images/icon-supervisor.svg" alt="">
+                        </div>
+                        
+                    </div>
+            </div>
+
+            <div class="col cards-mid">
+
+                    <div class="card card-red">
+                            <div class="card-body">
+                                    <h4>Team builder</h4>
+                                    <p>Scans our talent program to create the optimal team for you</p>
+                                    <img src="images/icon-team-builder.svg" alt="">
+                            </div>
+                            
+                        </div>
+
+                        <div class="card card-orange">
+                                <div class="card-body">
+                                        <h4>Karma</h4>
+                                        <p>Regularly evaluates our talent to ensure quality</p>
+                                        <img src="images/icon-karma.svg" alt="">
+                                </div>
+                                
+                            </div>
+
+            </div>
+
+            <div class="col cards-right">
+                    <div class="card card-blue">
+                            <div class="card-body">
+                                    <h4>Calculator</h4>
+                                    <p>Uses data from previous projects to provide better delivery estimates</p>
+                                    <img src="images/icon-calculator.svg" alt="">
+                            </div>
+                            
+                        </div>
+            </div>
+        </div>
+
+    </body>
+</html>
