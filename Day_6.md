@@ -15,4 +15,4 @@ The session challenge is to implement the design below
 
 ### Give it a try and then take a look at the solution
 
-[Solution](https://www.w3schools.com/)
+[Solution](https://github.com/jkuatdsc/30-days-of-web/blob/master/Day6/challenge.html)
